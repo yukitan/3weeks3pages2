@@ -49,17 +49,21 @@ header{
 }
 .pages #tudou-1 li .thumb img:hover{
     border: 2px solid white;
-    box-shadow: 0 10px 10px grey;
+    box-shadow: 0 2px 5px grey;
 }
 .pages #tudou-2 li .thumb img:hover{
     border: 2px solid white;
-    box-shadow: 0 10px 10px grey;
+    box-shadow: 0 2px 5px grey;
 }
 .pages #tudou-3 li .thumb img:hover{
     border: 2px solid white;
-    box-shadow: 0 10px 10px grey;
+    box-shadow: 0 2px 5px grey;
 }
-.pages #tudou-1 li .thumb img, .pages #tudou-2 li .thumb img, .pages #tudou-3 li .thumb img {
+.pages #tudou-1 li .thumb img{
+    width: 90%;
+    margin-top: 50px;
+}
+.pages #tudou-2 li .thumb img, .pages #tudou-3 li .thumb img {
     width: 90%;
     margin: 0 auto;
 }
